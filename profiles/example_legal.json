@@ -1,0 +1,15 @@
+{
+  "name": "example_legal",
+  "description": "Example for court and legal documents: case numbers are identifying, court names are not",
+  "language": "fr",
+  "min_score": 60,
+  "allow": [
+    {"text": "Tribunal judiciaire"},
+    {"text": "Cour d'appel"},
+    {"text": "Tribunal de commerce"}
+  ],
+  "deny": [
+    {"text": "\\b(?:RG|N°\\s*RG|affaire|dossier|case)\\s*(?:n°|no\\.?|#)?\\s*:?\\s*\\d{2,4}[/-]\\d{3,6}\\b", "regex": true, "kind": "REFERENCE",
+     "note": "RG 21/04567, dossier n° 2023-001234, case no. 12-345678"}
+  ]
+}

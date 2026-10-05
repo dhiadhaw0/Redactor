@@ -1,0 +1,15 @@
+{
+  "name": "example_hr",
+  "description": "Example for employment documents: edit the patterns to your company's formats",
+  "language": "fr",
+  "min_score": 60,
+  "share_threshold": 85,
+  "allow": [
+    {"text": "Ressources Humaines", "note": "the department, not a person"},
+    {"text": "Direction Générale"}
+  ],
+  "deny": [
+    {"text": "\\bEMP[-\\s]?\\d{4,6}\\b", "regex": true, "kind": "ID", "note": "internal employee number, e.g. EMP-04821"},
+    {"text": "\\bmatricule\\s*:?\\s*[A-Z0-9-]{4,10}\\b", "regex": true, "kind": "ID"}
+  ]
+}

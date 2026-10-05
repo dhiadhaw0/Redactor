@@ -1,0 +1,278 @@
+{
+  "seed": 7,
+  "threshold": 60,
+  "variants": "digital,scan,photo,mixed",
+  "langs": "en,fr,ar",
+  "metrics": {
+    "overall": {
+      "recall": 0.973,
+      "precision": 0.9921,
+      "f1": 0.9825,
+      "items": 370,
+      "covered": 360,
+      "predictions": 634,
+      "useful": 629
+    },
+    "variant:digital": {
+      "recall": 0.9691,
+      "precision": 0.9939,
+      "f1": 0.9813,
+      "items": 97,
+      "covered": 94,
+      "predictions": 163,
+      "useful": 162
+    },
+    "lang:en": {
+      "recall": 0.983,
+      "precision": 0.9836,
+      "f1": 0.9833,
+      "items": 176,
+      "covered": 173,
+      "predictions": 305,
+      "useful": 300
+    },
+    "cell:digital/en": {
+      "recall": 1.0,
+      "precision": 0.987,
+      "f1": 0.9935,
+      "items": 44,
+      "covered": 44,
+      "predictions": 77,
+      "useful": 76
+    },
+    "kind:PERSON": {
+      "recall": 0.99,
+      "precision": 0.9793,
+      "f1": 0.9846,
+      "items": 100,
+      "covered": 99,
+      "predictions": 241,
+      "useful": 236
+    },
+    "kind:ADDRESS": {
+      "recall": 0.9891,
+      "precision": 1.0,
+      "f1": 0.9945,
+      "items": 92,
+      "covered": 91,
+      "predictions": 138,
+      "useful": 138
+    },
+    "kind:REFERENCE": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 8,
+      "covered": 8,
+      "predictions": 24,
+      "useful": 24
+    },
+    "kind:IBAN": {
+      "recall": 0.8,
+      "precision": 1.0,
+      "f1": 0.8889,
+      "items": 10,
+      "covered": 8,
+      "predictions": 16,
+      "useful": 16
+    },
+    "kind:EMAIL": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 28,
+      "covered": 28,
+      "predictions": 52,
+      "useful": 52
+    },
+    "kind:PHONE": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 34,
+      "covered": 34,
+      "predictions": 59,
+      "useful": 59
+    },
+    "variant:scan": {
+      "recall": 0.9897,
+      "precision": 0.988,
+      "f1": 0.9888,
+      "items": 97,
+      "covered": 96,
+      "predictions": 166,
+      "useful": 164
+    },
+    "cell:scan/en": {
+      "recall": 1.0,
+      "precision": 0.974,
+      "f1": 0.9868,
+      "items": 44,
+      "covered": 44,
+      "predictions": 77,
+      "useful": 75
+    },
+    "variant:photo": {
+      "recall": 0.9318,
+      "precision": 0.9933,
+      "f1": 0.9616,
+      "items": 88,
+      "covered": 82,
+      "predictions": 150,
+      "useful": 149
+    },
+    "cell:photo/en": {
+      "recall": 0.9318,
+      "precision": 0.9865,
+      "f1": 0.9584,
+      "items": 44,
+      "covered": 41,
+      "predictions": 74,
+      "useful": 73
+    },
+    "variant:mixed": {
+      "recall": 1.0,
+      "precision": 0.9935,
+      "f1": 0.9968,
+      "items": 88,
+      "covered": 88,
+      "predictions": 155,
+      "useful": 154
+    },
+    "cell:mixed/en": {
+      "recall": 1.0,
+      "precision": 0.987,
+      "f1": 0.9935,
+      "items": 44,
+      "covered": 44,
+      "predictions": 77,
+      "useful": 76
+    },
+    "kind:ID": {
+      "recall": 0.9118,
+      "precision": 1.0,
+      "f1": 0.9538,
+      "items": 34,
+      "covered": 31,
+      "predictions": 42,
+      "useful": 42
+    },
+    "kind:CREDIT_CARD": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 8,
+      "covered": 8,
+      "predictions": 8,
+      "useful": 8
+    },
+    "kind:URL": {
+      "recall": 0.875,
+      "precision": 1.0,
+      "f1": 0.9333,
+      "items": 16,
+      "covered": 14,
+      "predictions": 14,
+      "useful": 14
+    },
+    "kind:DATE_OF_BIRTH": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 16,
+      "covered": 16,
+      "predictions": 16,
+      "useful": 16
+    },
+    "kind:MRZ": {
+      "recall": 0.9375,
+      "precision": 1.0,
+      "f1": 0.9677,
+      "items": 16,
+      "covered": 15,
+      "predictions": 16,
+      "useful": 16
+    },
+    "kind:BARCODE": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 8,
+      "covered": 8,
+      "predictions": 8,
+      "useful": 8
+    },
+    "lang:fr": {
+      "recall": 0.983,
+      "precision": 1.0,
+      "f1": 0.9914,
+      "items": 176,
+      "covered": 173,
+      "predictions": 310,
+      "useful": 310
+    },
+    "cell:digital/fr": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 44,
+      "covered": 44,
+      "predictions": 78,
+      "useful": 78
+    },
+    "cell:scan/fr": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 44,
+      "covered": 44,
+      "predictions": 78,
+      "useful": 78
+    },
+    "cell:photo/fr": {
+      "recall": 0.9318,
+      "precision": 1.0,
+      "f1": 0.9647,
+      "items": 44,
+      "covered": 41,
+      "predictions": 76,
+      "useful": 76
+    },
+    "cell:mixed/fr": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "items": 44,
+      "covered": 44,
+      "predictions": 78,
+      "useful": 78
+    },
+    "lang:ar": {
+      "recall": 0.7778,
+      "precision": 1.0,
+      "f1": 0.875,
+      "items": 18,
+      "covered": 14,
+      "predictions": 19,
+      "useful": 19
+    },
+    "cell:digital/ar": {
+      "recall": 0.6667,
+      "precision": 1.0,
+      "f1": 0.8,
+      "items": 9,
+      "covered": 6,
+      "predictions": 8,
+      "useful": 8
+    },
+    "cell:scan/ar": {
+      "recall": 0.8889,
+      "precision": 1.0,
+      "f1": 0.9412,
+      "items": 9,
+      "covered": 8,
+      "predictions": 11,
+      "useful": 11
+    }
+  }
+}

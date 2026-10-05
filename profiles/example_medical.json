@@ -1,0 +1,13 @@
+{
+  "name": "example_medical",
+  "description": "Example for medical documents: patient identifiers",
+  "language": "fr",
+  "min_score": 55,
+  "allow": [
+    {"text": "Service de cardiologie", "note": "a department"}
+  ],
+  "deny": [
+    {"text": "\\b(?:MRN|IPP|NIP|dossier patient)\\s*[:#]?\\s*\\d{5,10}\\b", "regex": true, "kind": "ID", "note": "patient / record number"},
+    {"text": "\\bpatient(?:e)?\\s+n°\\s*\\d{4,10}\\b", "regex": true, "kind": "ID"}
+  ]
+}

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+tessdata/
+samples/*.pdf
+*.pyc
+samples/real/
+out/
+benchmark/local/
+benchmark/results/
+profiles/local/

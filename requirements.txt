@@ -1,0 +1,8 @@
+pymupdf
+spacy
+streamlit
+streamlit-image-coordinates
+pandas
+pillow
+pytest
+zxing-cpp
